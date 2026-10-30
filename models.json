@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "note": "Список моделей для скачивания в приложении. Залейте этот файл рядом с presets.json (в тот же репозиторий). Ссылки можно менять на свои: если вы залили .gguf в GitHub Releases, вставьте адрес вида https://github.com/ЛОГИН/РЕПО/releases/download/ТЕГ/файл.gguf",
+  "models": [
+    {
+      "id": "qwen25-05b-q4km",
+      "name": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "desc": "Сбалансированная: живой разговор, хорошо держит тему. Рекомендуется.",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "sizeMb": 469
+    },
+    {
+      "id": "smollm2-360m-q4km",
+      "name": "SmolLM2-360M-Instruct-Q4_K_M.gguf",
+      "desc": "Легче и быстрее: ответы проще, но память ест заметно меньше.",
+      "url": "https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct-Q4_K_M.gguf",
+      "sizeMb": 258
+    },
+    {
+      "id": "smollm2-135m-q4km",
+      "name": "SmolLM2-135M-Instruct-Q4_K_M.gguf",
+      "desc": "Самая лёгкая и быстрая: для слабого телефона. Отвечает совсем коротко.",
+      "url": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_K_M.gguf",
+      "sizeMb": 101
+    },
+    {
+      "id": "llama32-1b-q4km",
+      "name": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+      "desc": "Умнее, но тяжелее: на 2 ГБ ОЗУ может не хватить памяти. Ставь контекст 1024.",
+      "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+      "sizeMb": 770
+    }
+  ]
+}
